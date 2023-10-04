@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    .main-content{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-wrap{
+        width: 50%;
+        height: 50%;
+    }
+    .name h1{
+        font-size: 2rem;
+    }
+    .main-content-biographi p,
+    .skills-wrap p{
+        font-size: 45px;
+    }
+
+}
+@media screen and (max-width: 575px) {
+    .name {
+   width: 100%;     
+    }
+    .name h1{
+        line-height: 40px;
+    }
+    .name p {
+        line-height: 0px;
+    }
+    .main-content-biographi p,
+    .skills-wrap p{
+        font-size: 38px;
+    }
+}
+@media screen  and (max-width: 412px) {
+    .header {
+        gap: 15px
+    }
+    .main-content-biographi p,
+    .skills-wrap p
+    {
+        font-size: 25px;
+    }
+}
